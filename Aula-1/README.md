@@ -1,4 +1,4 @@
-# Aula 0
+# Aula 1
 
 O código-fonte desta aula é o arquivo `hello_world.cpp`. Para compilar o código, execute os comandos abaixo na pasta onde o arquivo está localizado:
 
