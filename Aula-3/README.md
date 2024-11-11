@@ -1,4 +1,4 @@
-# Aula 2
+# Aula 3
 
 O código-fonte desta aula é o arquivo `main.cpp`. Para compilar o código, execute os comandos abaixo na pasta onde o arquivo está localizado:
 
