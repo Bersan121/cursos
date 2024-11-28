@@ -25,4 +25,6 @@ int main() {
 
     u64 prod = produto(num_a, num_b);
     cout << "Produto: " << prod << endl;
+
+    return 0;
 }

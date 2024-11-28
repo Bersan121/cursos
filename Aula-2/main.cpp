@@ -52,4 +52,6 @@ int main() {
     std::cout << "Original: " << set_binario << std::endl;
     std::bitset<8> set_inverso(inverso);
     std::cout << "Inverso: " << set_inverso << std::endl;
+
+    return 0;
 }
