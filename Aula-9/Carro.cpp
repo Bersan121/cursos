@@ -9,7 +9,7 @@ Carro::Carro(string marca, int ano) {
 
 // Essa sintaxe tambem eh possivel para construtores
 // eh chamada de definicao inline
-// Carro::Carro(string marca) : marca(marca), anoFabricacao(ano) {}
+//Carro::Carro(string marca) : marca(marca), anoFabricacao(ano) {}
 
 void Carro::acelerar(float aceleracao) {
     this->velocidade += aceleracao;

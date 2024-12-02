@@ -16,7 +16,7 @@ int main() {
 
     std::cout << "Valor de nmr: " << nmr << std::endl;
 
-    // Switch-Case
+    // // Switch-Case
     std::cout << "Menu do Jogo Muito Foda:" << std::endl;
     int escolha = 0;
     switch (escolha) {
@@ -34,9 +34,9 @@ int main() {
         break;
     }
 
-    // Operador Ternário
+    // // Operador Ternário
     bool cond = true;
-    int result = (cond == true) ? 10 : -10;
+    int result = (cond ==  true) ? 10 : -10;
     // O codigo a cima eh equivalente a este if-else
     // Variaveis bool nao precisam exatamente serem comparados com true ou false
     // ja que seu valor ja diz o resultado
@@ -49,7 +49,7 @@ int main() {
     */
     std::cout << "Valor de result: " << result << std::endl;
 
-    // Laço For
+    // // Laço For
     std::cout << "Iteracoes do for:" << std::endl;
     for(int i = 0; i < 10; i++) {
         std::cout << i << " ";
@@ -60,7 +60,7 @@ int main() {
 
     // Laço while
     int contador_w = 0;
-    while (contador_w < 5) {
+    while (contador_w > 5) {
         std::cout << "Iteracao do while n" << contador_w << std::endl;
         contador_w++;
     }
@@ -71,10 +71,10 @@ int main() {
     do {
         std::cout << "Iteracao do do-while n" << contador_dw << std::endl;
         contador_dw++;
-    } while (contador_dw < 5);
+    } while (contador_dw > 5);
     // Inverta o < para > e veja que vai rodar pelo menos 1 vez
 
-    // Palavras-chave
+    //Palavras-chave
     for (int i = 1; i <= 10; ++i) {
         // Usa continue para pular numeros pares
         if (i % 2 == 0) {
